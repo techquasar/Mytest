@@ -5,7 +5,7 @@
 # runs on all inventory devices. If there was a diverse set
 # of hosts, such as routers, firewalls, and wireless LAN
 # controllers, each one may have different NTP configuration
-# syntax and could use different plays. testing....
+# syntax and could use different plays. 
 - name: "PLAY 1: Manage NTP configuration"
   hosts: "all"
   tasks:
